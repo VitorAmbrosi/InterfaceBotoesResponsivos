@@ -1,0 +1,87 @@
+* {
+    margin:0; padding:0; box-sizing: border-box;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(to right, #0d3571, #084c89, #0363a1, #037bb7, #1094cd);
+    justify-content: space-around;
+    gap: 35px;
+    font-family: "Roboto", sans-serif;
+    overflow-x: hidden;
+}
+img {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 100%;
+    max-width: 250px;
+    width: 7vw;
+    min-width: 200px;
+    border: white 2px solid;
+    justify-content: center;
+    margin: auto;
+}
+div#nome {
+    color: whitesmoke;
+    font-size: 50px;
+    text-align: center;
+}
+div#descrição {
+    color: whitesmoke;
+    font-size: 33px;
+    text-align: center;
+    flex-wrap: wrap;
+    margin: 0px 20px;
+}
+div#perfil {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+div#conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+div.opções {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: solid whitesmoke 2px;
+    color: whitesmoke;
+    border-radius: 20px;
+    max-width: 600px;
+    min-width: 100px;
+    width: 80vw;
+    height: 9vh;
+    min-height: 90px;
+    text-align: center;
+    align-items: center;
+    font-size: 35px;
+    gap: 15px;
+    justify-content: center;
+    cursor: pointer;
+    transition: all .1s linear;
+    flex-wrap: wrap;
+}
+div.opções:hover {background-color: whitesmoke; color: rgb(3, 101, 163);}
+footer {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.redes {
+    color: white;
+    cursor: pointer;
+    font-size: 35px;
+    margin: 10px 12px;
+    height: 60px;
+}
